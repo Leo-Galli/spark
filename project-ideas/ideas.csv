@@ -1,0 +1,15 @@
+id,category,difficulty,category_name,problem,users,mvp,stack_sketch,first_issues
+C1-01,C1,S,CLI,Checklist status with stable IDs,solo/small Markdown teams,status+check local,TypeScript/Node,dup-id error; second sample; CONTRIBUTING bullets
+C1-02,C1,S,CLI,Dry-run wrapper for destructive scripts,local ops maintainers,prefix runner dry-run,Go or Python,dangerous marker; sample script; refuse network
+C1-03,C1,S,CLI,Env file presence checker,small Node/Python apps,compare example keys,Node or Python,missing-key text; ignore-value; five-minute demo
+C1-04,C1,M,CLI,Git ignore tester,repo maintainers,path ignore report,Go CLI,nested ignore; symlink note; CONTRIBUTING sample
+C1-05,C1,S,CLI,Changelog fragment collector,Keep a Changelog projects,collect changelog.d,Python or Node,schema doc; sample fragments; refuse publish-on-run
+C2-01,C2,S,Docs,Doc link checker,doc maintainers,local link crawl,Node,fixture site; ignore list; CI recipe
+C3-01,C3,S,Test,Fixture folder linter,test authors,required files present,Node or Python,schema; sample fixture; clear errors
+C4-01,C4,S,Files,CSV header diff,analysts/devs,compare headers only,Python,sample CSVs; exit codes; README demo
+C5-01,C5,M,Collab,Decision log stubber,small teams,ADR file scaffold,any,template; status enum; refuse chat paste
+C6-01,C6,S,Sec,Dependency license list,maintainers,SPDX list from lockfile,Node,permit list; fail unknown; sample lock
+C7-01,C7,S,Teach,Exercise harness runner,teachers,run starter tests,Node,one exercise path; fail-loud; no keys
+C8-01,C8,S,A11y,Alt text presence check,doc sites,flag images without alt,Node,fixture md; ignore code; demo
+C9-01,C9,S,Offline,Offline pack manifest,field tools,list required files,Go or Python,manifest schema; missing report; no network
+C10-01,C10,S,Creative,Prompt stub librarian,writers,local stub index,Node,schema; sample stubs; refuse cloud

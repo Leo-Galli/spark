@@ -1,0 +1,12 @@
+.keys
+solutions-src/
+**/node_modules/
+**/dist/
+**/.DS_Store
+*.log
+.env
+.env.*
+unlocked/
+__pycache__/
+*.pyc
+.venv/

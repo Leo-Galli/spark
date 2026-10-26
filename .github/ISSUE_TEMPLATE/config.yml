@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/Leo-Galli/spark/blob/main/SECURITY.md
+    about: Use the SECURITY.md process for vulnerabilities.
+  - name: Book site
+    url: https://github.com/Leo-Galli/spark
+    about: Companion repository for Spark by Leonardo Galli. Exercise instructions live in the book.

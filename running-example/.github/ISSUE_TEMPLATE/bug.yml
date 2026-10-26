@@ -1,0 +1,57 @@
+name: Bug report
+description: Something Tickdown does wrong on a local checklist
+title: "[bug] "
+labels: ["bug", "needs-repro"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Issues-only support. First response goal within 7 days.
+        Please include a minimal Markdown sample. Feature ideas without a demo stay parked.
+  - type: textarea
+    id: command
+    attributes:
+      label: Command
+      description: Exact command line you ran
+      placeholder: tickdown status path/to/checklist.md
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected
+      description: What should have happened under 0.1.0 claims
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual
+      description: Paste the full output or error text
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Minimal Markdown sample
+      description: Smallest checklist that shows the problem
+      render: markdown
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Node version and Tickdown version (or commit SHA)
+      placeholder: Node 22.x / tickdown 0.1.0
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: I read README non-goals (no accounts, plugins, cloud, watch)
+          required: true
+        - label: This is about local file behavior Tickdown claims today
+          required: true

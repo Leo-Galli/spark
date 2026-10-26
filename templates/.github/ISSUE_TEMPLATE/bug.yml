@@ -1,0 +1,53 @@
+name: Bug report
+description: Something demoable broke
+title: "[bug]: "
+labels: ["bug", "needs-repro"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks. Bugs need a reproduction. Feature asks belong in a separate enhancement issue.
+  - type: input
+    id: command
+    attributes:
+      label: Command or steps
+      description: Exact command or UI path
+      placeholder: tickdown status path/to/file.md
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Minimal sample
+      description: Smallest file or snippet that reproduces (paste or URL)
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Project version, runtime, OS
+      placeholder: tickdown 0.1.0, Node 20, Windows 11
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: I read the README non-goals; this is not a refused feature ask
+          required: true
+        - label: I searched existing issues
+          required: true

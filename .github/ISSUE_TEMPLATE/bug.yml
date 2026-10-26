@@ -1,0 +1,32 @@
+name: Companion bug
+description: Report a bug in starters, tests, tools, templates, or the running example
+labels: ["bug"]
+body:
+  - type: input
+    id: path
+    attributes:
+      label: Path
+      description: Repository path that fails
+      placeholder: part-2-designing-and-building/the-repository/ex-01-parse-task-line
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command
+      description: Exact command you ran
+      placeholder: powershell -File tools/check.ps1 -Exercise part-2-designing-and-building/the-repository/ex-01-parse-task-line
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual
+    validations:
+      required: true

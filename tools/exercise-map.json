@@ -1,0 +1,280 @@
+{
+  "keys_note": "keys live in .keys and LEDGER only",
+  "exercises": [
+    {
+      "part": 1,
+      "part_slug": "part-1-finding-the-idea",
+      "chapter": "Why Build Open Source",
+      "chapter_file": "ch01",
+      "chapter_slug": "why-build-open-source",
+      "exercise": "ex-01-definition-fields",
+      "title": "Definition fields",
+      "repo_path": "part-1-finding-the-idea/why-build-open-source/ex-01-definition-fields",
+      "book_anchor": "Why Build Open Source / Exercises"
+    },
+    {
+      "part": 1,
+      "part_slug": "part-1-finding-the-idea",
+      "chapter": "Where Ideas Come From",
+      "chapter_file": "ch02",
+      "chapter_slug": "where-ideas-come-from",
+      "exercise": "ex-01-idea-card-fields",
+      "title": "Idea card fields",
+      "repo_path": "part-1-finding-the-idea/where-ideas-come-from/ex-01-idea-card-fields",
+      "book_anchor": "Where Ideas Come From / Exercises"
+    },
+    {
+      "part": 1,
+      "part_slug": "part-1-finding-the-idea",
+      "chapter": "Brainstorming for Builders",
+      "chapter_file": "ch03",
+      "chapter_slug": "brainstorming-for-builders",
+      "exercise": "ex-01-shortlist-rank",
+      "title": "Shortlist rank",
+      "repo_path": "part-1-finding-the-idea/brainstorming-for-builders/ex-01-shortlist-rank",
+      "book_anchor": "Brainstorming for Builders / Exercises"
+    },
+    {
+      "part": 1,
+      "part_slug": "part-1-finding-the-idea",
+      "chapter": "Validating Ideas",
+      "chapter_file": "ch04",
+      "chapter_slug": "validating-ideas",
+      "exercise": "ex-01-score-row",
+      "title": "Score row",
+      "repo_path": "part-1-finding-the-idea/validating-ideas/ex-01-score-row",
+      "book_anchor": "Validating Ideas / Exercises"
+    },
+    {
+      "part": 1,
+      "part_slug": "part-1-finding-the-idea",
+      "chapter": "Scoping",
+      "chapter_file": "ch05",
+      "chapter_slug": "scoping",
+      "exercise": "ex-01-mvp-behaviors",
+      "title": "MVP behaviors",
+      "repo_path": "part-1-finding-the-idea/scoping/ex-01-mvp-behaviors",
+      "book_anchor": "Scoping / Exercises"
+    },
+    {
+      "part": 2,
+      "part_slug": "part-2-designing-and-building",
+      "chapter": "Choosing a Stack",
+      "chapter_file": "ch06",
+      "chapter_slug": "choosing-a-stack",
+      "exercise": "ex-01-stack-weights",
+      "title": "Stack weights",
+      "repo_path": "part-2-designing-and-building/choosing-a-stack/ex-01-stack-weights",
+      "book_anchor": "Choosing a Stack / Exercises"
+    },
+    {
+      "part": 2,
+      "part_slug": "part-2-designing-and-building",
+      "chapter": "Architecture for Open Source",
+      "chapter_file": "ch07",
+      "chapter_slug": "architecture-for-open-source",
+      "exercise": "ex-01-module-names",
+      "title": "Module names",
+      "repo_path": "part-2-designing-and-building/architecture-for-open-source/ex-01-module-names",
+      "book_anchor": "Architecture for Open Source / Exercises"
+    },
+    {
+      "part": 2,
+      "part_slug": "part-2-designing-and-building",
+      "chapter": "The Repository",
+      "chapter_file": "ch08",
+      "chapter_slug": "the-repository",
+      "exercise": "ex-01-parse-task-line",
+      "title": "Parse task line",
+      "repo_path": "part-2-designing-and-building/the-repository/ex-01-parse-task-line",
+      "book_anchor": "The Repository / Exercises"
+    },
+    {
+      "part": 2,
+      "part_slug": "part-2-designing-and-building",
+      "chapter": "Licensing Without Fear",
+      "chapter_file": "ch09",
+      "chapter_slug": "licensing-without-fear",
+      "exercise": "ex-01-spdx-token",
+      "title": "SPDX token",
+      "repo_path": "part-2-designing-and-building/licensing-without-fear/ex-01-spdx-token",
+      "book_anchor": "Licensing Without Fear / Exercises"
+    },
+    {
+      "part": 2,
+      "part_slug": "part-2-designing-and-building",
+      "chapter": "Quality by Default",
+      "chapter_file": "ch10",
+      "chapter_slug": "quality-by-default",
+      "exercise": "ex-01-stable-id",
+      "title": "Stable ID",
+      "repo_path": "part-2-designing-and-building/quality-by-default/ex-01-stable-id",
+      "book_anchor": "Quality by Default / Exercises"
+    },
+    {
+      "part": 2,
+      "part_slug": "part-2-designing-and-building",
+      "chapter": "Security and Supply Chain",
+      "chapter_file": "ch11",
+      "chapter_slug": "security-and-supply-chain",
+      "exercise": "ex-01-secret-shape",
+      "title": "Secret shape",
+      "repo_path": "part-2-designing-and-building/security-and-supply-chain/ex-01-secret-shape",
+      "book_anchor": "Security and Supply Chain / Exercises"
+    },
+    {
+      "part": 2,
+      "part_slug": "part-2-designing-and-building",
+      "chapter": "Building with AI Assistants",
+      "chapter_file": "ch12",
+      "chapter_slug": "building-with-ai-assistants",
+      "exercise": "ex-01-review-verdict",
+      "title": "Review verdict",
+      "repo_path": "part-2-designing-and-building/building-with-ai-assistants/ex-01-review-verdict",
+      "book_anchor": "Building with AI Assistants / Exercises"
+    },
+    {
+      "part": 3,
+      "part_slug": "part-3-launching",
+      "chapter": "Getting Launch-Ready",
+      "chapter_file": "ch13",
+      "chapter_slug": "getting-launch-ready",
+      "exercise": "ex-01-gate-flags",
+      "title": "Gate flags",
+      "repo_path": "part-3-launching/getting-launch-ready/ex-01-gate-flags",
+      "book_anchor": "Getting Launch-Ready / Exercises"
+    },
+    {
+      "part": 3,
+      "part_slug": "part-3-launching",
+      "chapter": "Where to Launch",
+      "chapter_file": "ch14",
+      "chapter_slug": "where-to-launch",
+      "exercise": "ex-01-first-wave",
+      "title": "First wave",
+      "repo_path": "part-3-launching/where-to-launch/ex-01-first-wave",
+      "book_anchor": "Where to Launch / Exercises"
+    },
+    {
+      "part": 3,
+      "part_slug": "part-3-launching",
+      "chapter": "Writing That Sells Without Hype",
+      "chapter_file": "ch15",
+      "chapter_slug": "writing-that-sells-without-hype",
+      "exercise": "ex-01-claim-ceiling",
+      "title": "Claim ceiling",
+      "repo_path": "part-3-launching/writing-that-sells-without-hype/ex-01-claim-ceiling",
+      "book_anchor": "Writing That Sells Without Hype / Exercises"
+    },
+    {
+      "part": 4,
+      "part_slug": "part-4-community-and-growth",
+      "chapter": "Your First Contributors",
+      "chapter_file": "ch16",
+      "chapter_slug": "your-first-contributors",
+      "exercise": "ex-01-starter-issue",
+      "title": "Starter issue",
+      "repo_path": "part-4-community-and-growth/your-first-contributors/ex-01-starter-issue",
+      "book_anchor": "Your First Contributors / Exercises"
+    },
+    {
+      "part": 4,
+      "part_slug": "part-4-community-and-growth",
+      "chapter": "Governance",
+      "chapter_file": "ch17",
+      "chapter_slug": "governance",
+      "exercise": "ex-01-owner-fields",
+      "title": "Owner fields",
+      "repo_path": "part-4-community-and-growth/governance/ex-01-owner-fields",
+      "book_anchor": "Governance / Exercises"
+    },
+    {
+      "part": 4,
+      "part_slug": "part-4-community-and-growth",
+      "chapter": "Communication at Scale",
+      "chapter_file": "ch18",
+      "chapter_slug": "communication-at-scale",
+      "exercise": "ex-01-adr-status",
+      "title": "ADR status",
+      "repo_path": "part-4-community-and-growth/communication-at-scale/ex-01-adr-status",
+      "book_anchor": "Communication at Scale / Exercises"
+    },
+    {
+      "part": 4,
+      "part_slug": "part-4-community-and-growth",
+      "chapter": "Conflict and Saying No",
+      "chapter_file": "ch19",
+      "chapter_slug": "conflict-and-saying-no",
+      "exercise": "ex-01-decline-kind",
+      "title": "Decline kind",
+      "repo_path": "part-4-community-and-growth/conflict-and-saying-no/ex-01-decline-kind",
+      "book_anchor": "Conflict and Saying No / Exercises"
+    },
+    {
+      "part": 4,
+      "part_slug": "part-4-community-and-growth",
+      "chapter": "Metrics That Matter",
+      "chapter_file": "ch20",
+      "chapter_slug": "metrics-that-matter",
+      "exercise": "ex-01-five-numbers",
+      "title": "Five numbers",
+      "repo_path": "part-4-community-and-growth/metrics-that-matter/ex-01-five-numbers",
+      "book_anchor": "Metrics That Matter / Exercises"
+    },
+    {
+      "part": 5,
+      "part_slug": "part-5-sustaining",
+      "chapter": "Avoiding Burnout",
+      "chapter_file": "ch21",
+      "chapter_slug": "avoiding-burnout",
+      "exercise": "ex-01-hours-budget",
+      "title": "Hours budget",
+      "repo_path": "part-5-sustaining/avoiding-burnout/ex-01-hours-budget",
+      "book_anchor": "Avoiding Burnout / Exercises"
+    },
+    {
+      "part": 5,
+      "part_slug": "part-5-sustaining",
+      "chapter": "Funding",
+      "chapter_file": "ch22",
+      "chapter_slug": "funding",
+      "exercise": "ex-01-experiment-label",
+      "title": "Experiment label",
+      "repo_path": "part-5-sustaining/funding/ex-01-experiment-label",
+      "book_anchor": "Funding / Exercises"
+    },
+    {
+      "part": 5,
+      "part_slug": "part-5-sustaining",
+      "chapter": "Endings and Handoffs",
+      "chapter_file": "ch23",
+      "chapter_slug": "endings-and-handoffs",
+      "exercise": "ex-01-succession-fields",
+      "title": "Succession fields",
+      "repo_path": "part-5-sustaining/endings-and-handoffs/ex-01-succession-fields",
+      "book_anchor": "Endings and Handoffs / Exercises"
+    },
+    {
+      "part": 6,
+      "part_slug": "part-6-workbook",
+      "chapter": "The Idea Workbook",
+      "chapter_file": "ch24",
+      "chapter_slug": "the-idea-workbook",
+      "exercise": "ex-01-packet-status",
+      "title": "Packet status",
+      "repo_path": "part-6-workbook/the-idea-workbook/ex-01-packet-status",
+      "book_anchor": "The Idea Workbook / Exercises"
+    },
+    {
+      "part": 6,
+      "part_slug": "part-6-workbook",
+      "chapter": "Seventy-Five Project Ideas",
+      "chapter_file": "ch25",
+      "chapter_slug": "seventy-five-project-ideas",
+      "exercise": "ex-01-adapt-row",
+      "title": "Adapt row",
+      "repo_path": "part-6-workbook/seventy-five-project-ideas/ex-01-adapt-row",
+      "book_anchor": "Seventy-Five Project Ideas / Exercises"
+    }
+  ]
+}

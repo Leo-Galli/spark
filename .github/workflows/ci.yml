@@ -1,0 +1,24 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  guard-and-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Structure check
+        run: python tools/guard_no_book_text.py --structure-only
+      - name: Guard against book text and secrets
+        run: python tools/guard_no_book_text.py
+      - name: Starters must fail
+        run: python tools/guard_no_book_text.py --starters-fail
+      - name: No emoji / AI attribution scan
+        run: python tools/guard_no_book_text.py --meta-scan
