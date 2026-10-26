@@ -14,11 +14,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Install commit-msg hook
+        run: cp tools/commit-msg .git/hooks/commit-msg && chmod +x .git/hooks/commit-msg
       - name: Structure check
         run: python tools/guard_no_book_text.py --structure-only
       - name: Guard against book text and secrets
         run: python tools/guard_no_book_text.py
       - name: Starters must fail
         run: python tools/guard_no_book_text.py --starters-fail
+      - name: Exercise map two-way
+        run: python tools/guard_no_book_text.py --exercise-map
       - name: No emoji / AI attribution scan
         run: python tools/guard_no_book_text.py --meta-scan

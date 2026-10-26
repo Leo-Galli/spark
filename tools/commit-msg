@@ -1,0 +1,8 @@
+#!/bin/sh
+# Reject AI co-author trailers in commit messages.
+msg_file="$1"
+if grep -Eiq 'Co-authored-by:[[:space:]]*(Claude|Codebuff|Cursor|ChatGPT|Copilot|GPT-|Anthropic)' "$msg_file"; then
+  echo "commit-msg: AI co-author attribution is not allowed" >&2
+  exit 1
+fi
+exit 0
